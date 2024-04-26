@@ -16,10 +16,10 @@ $(document).ready(function() {
   $("#nombreCarrera").on( "mouseover", function() {
       $('#nombreUniversidad').css( "color", "green" );
   });
-
+// Modificación del color del background
   $("#nombreUniversidad").on( "mouseover", function() {
       $('#nombreUniversidad').css( "color", "black" );
-      $('body').css( "background", "black" );
+      $('body').css( "background", "white" );
   });
 
 
