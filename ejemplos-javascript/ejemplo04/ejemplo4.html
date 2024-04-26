@@ -22,8 +22,10 @@
         var v = v + i.toString() + "<br/>";
         console.log(v);
       }
+// Inner html agrega html mientras que innerTExt agrega lo que tiene mi variable pero como algo de tipo texto,
+// lo que puede tener repercusiones a la hora de presentar la información.
 
-      document.getElementById("parrafo1").innerText = v; 
+      document.getElementById("parrafo1").innerHTML = v; 
       document.getElementById("parrafo2").innerHTML = i;
 
   </script>
